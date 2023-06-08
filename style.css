@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Red+Hat+Display&display=swap');
+
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+img{
+  max-width: 100%;
+  border-radius: 25px 25px 0px 0px;
+}
+
+h3,p{
+  margin: 0;
+  padding: 0;
+}
+
+h2,h3{
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+p{
+  font-weight: 500px;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+section{
+  width: 100%;
+  padding-top: 90px;
+}
+
+.main{
+  background-color: white;
+  width: 55%;
+  max-width: 375px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+  display: block;
+  border-radius: 25px;
+}
+
+.container-des{
+  padding: 0px 50px;
+}
+
+.plan{
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 14px;
+  margin: 20px -20px;
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn{
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 50px;
+  margin-bottom: 20px;
+}
